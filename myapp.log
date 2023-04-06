@@ -1,0 +1,7 @@
+127.0.0.1 - GET /wp-admin/css/bootstrap.min.css
+127.0.0.1 - POST /wp-admin/admin.php?page=eklenti+linki
+127.0.0.1 - GET /wp-admin/css/bootstrap.min.css
+127.0.0.1 - GET /wp-admin/js/bootstrap.bundle.min.js
+127.0.0.1 - POST /wp-admin/admin.php?page=eklenti+linki
+127.0.0.1 - GET /wp-admin/js/bootstrap.bundle.min.js
+127.0.0.1 - GET /wp-admin/css/bootstrap.min.css

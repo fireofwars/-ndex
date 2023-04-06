@@ -145,5 +145,18 @@ foreach ($kur -> Currency as $cur)
         echo "Geçersiz seçenek seçildi.";
         }
         }
+        
+
+$ip_address = $_SERVER['REMOTE_ADDR']; // İstemcinin IP adresini alır
+$request_method = $_SERVER['REQUEST_METHOD']; // İstek yöntemini (GET, POST vb.) alır
+$request_url = $_SERVER['REQUEST_URI']; // İstek URL'sini alır
+
+$log_message = "$ip_address - $request_method $request_url\n";
+
+$log_file = 'C:\laragon\www\kemal\wp-content\plugins\myapp.log';
+file_put_contents($log_file, $log_message,FILE_APPEND);
+
+
+
       ?>
 
